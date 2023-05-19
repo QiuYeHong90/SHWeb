@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SHWeb_Example' do
+  pod 'SHWeb', :path => '../'
+
+  target 'SHWeb_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
