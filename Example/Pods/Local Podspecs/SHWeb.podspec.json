@@ -1,0 +1,25 @@
+{
+  "name": "SHWeb",
+  "version": "0.1.0",
+  "summary": "A short description of SHWeb.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yorkYuanCH/SHWeb",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yorkYuanCH": "793983383@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/yorkYuanCH/SHWeb.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "SHWeb/Classes/**/*",
+  "resources": [
+    "SHWeb/Assets/*.**"
+  ]
+}

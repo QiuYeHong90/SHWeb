@@ -14,6 +14,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6F752D7741774B80815DA22D /* Pods_SHWeb_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC689E8F91B60EB35E4CA5AA /* Pods_SHWeb_Example.framework */; };
+		710A9A0A2A1777F800B88F13 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A9A092A1777F800B88F13 /* WebViewController.swift */; };
+		710A9A0C2A17786000B88F13 /* SHNavgationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710A9A0B2A17786000B88F13 /* SHNavgationBar.swift */; };
 		D1EC0FAD706445B20A217E1E /* Pods_SHWeb_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1C74934D4AA3DAAD54C17A /* Pods_SHWeb_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,10 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19710B227BBECEDEF854DC78 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2AA9E3E70AB63E198A3FFE8D /* SHWeb.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SHWeb.podspec; path = ../SHWeb.podspec; sourceTree = "<group>"; };
+		19710B227BBECEDEF854DC78 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2AA9E3E70AB63E198A3FFE8D /* SHWeb.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SHWeb.podspec; path = ../SHWeb.podspec; sourceTree = "<group>"; };
 		31F3F3ACAA3FEB0FCF9DC1A3 /* Pods-SHWeb_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWeb_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SHWeb_Tests/Pods-SHWeb_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5BE6CF152C554185459F4B39 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5BE6CF152C554185459F4B39 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SHWeb_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHWeb_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +46,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		67E364BB4A89D183AC876CAB /* Pods-SHWeb_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWeb_Example.release.xcconfig"; path = "Target Support Files/Pods-SHWeb_Example/Pods-SHWeb_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6D8D1EF0E82D7D9A7E13A02A /* Pods-SHWeb_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWeb_Example.debug.xcconfig"; path = "Target Support Files/Pods-SHWeb_Example/Pods-SHWeb_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		710A9A092A1777F800B88F13 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		710A9A0B2A17786000B88F13 /* SHNavgationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHNavgationBar.swift; sourceTree = "<group>"; };
 		CC689E8F91B60EB35E4CA5AA /* Pods_SHWeb_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHWeb_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69062002D0D93671323179B /* Pods-SHWeb_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWeb_Tests.release.xcconfig"; path = "Target Support Files/Pods-SHWeb_Tests/Pods-SHWeb_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FB1C74934D4AA3DAAD54C17A /* Pods_SHWeb_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHWeb_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +106,8 @@
 		607FACD21AFB9204008FA782 /* Example for SHWeb */ = {
 			isa = PBXGroup;
 			children = (
+				710A9A0B2A17786000B88F13 /* SHNavgationBar.swift */,
+				710A9A082A1777ED00B88F13 /* Web */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -148,6 +154,14 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		710A9A082A1777ED00B88F13 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				710A9A092A1777F800B88F13 /* WebViewController.swift */,
+			);
+			name = Web;
+			sourceTree = "<group>";
+		};
 		EAC3E7724BEE7DCA482485AA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +170,6 @@
 				31F3F3ACAA3FEB0FCF9DC1A3 /* Pods-SHWeb_Tests.debug.xcconfig */,
 				F69062002D0D93671323179B /* Pods-SHWeb_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +240,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -332,6 +346,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				710A9A0A2A1777F800B88F13 /* WebViewController.swift in Sources */,
+				710A9A0C2A17786000B88F13 /* SHNavgationBar.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,11 +435,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -465,10 +482,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -479,12 +497,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SHWeb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -494,12 +513,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SHWeb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -516,11 +536,12 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHWeb_Example.app/SHWeb_Example";
 			};
 			name = Debug;
@@ -534,11 +555,12 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHWeb_Example.app/SHWeb_Example";
 			};
 			name = Release;

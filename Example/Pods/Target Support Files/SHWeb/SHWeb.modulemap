@@ -1,0 +1,6 @@
+framework module SHWeb {
+  umbrella header "SHWeb-umbrella.h"
+
+  export *
+  module * { export * }
+}

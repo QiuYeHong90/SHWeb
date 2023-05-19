@@ -1,0 +1,16 @@
+PODS:
+  - SHWeb (0.1.0)
+
+DEPENDENCIES:
+  - SHWeb (from `../`)
+
+EXTERNAL SOURCES:
+  SHWeb:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SHWeb: b8d88c9f74c7ab9db88559558bc23b7bde7387ca
+
+PODFILE CHECKSUM: 512ee411efda77980ff394ec25013c9385cf4b76
+
+COCOAPODS: 1.11.3
