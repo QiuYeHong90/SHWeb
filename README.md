@@ -6,9 +6,11 @@
 [![Platform](https://img.shields.io/cocoapods/p/SHWeb.svg?style=flat)](https://cocoapods.org/pods/SHWeb)
 
 ## Example
-
+## 仿写微信 浏览器 web
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-![image](https://raw.githubusercontent.com/QiuYeHong90/SHWeb/d39431ef405a023c727a64c6b4cfac51eb900a8b/Simulator Screen Recording - iPhone 14 - 2023-05-19 at 17.39.55.gif)
+
+
+![image](https://raw.githubusercontent.com/QiuYeHong90/SHWeb/d39431ef405a023c727a64c6b4cfac51eb900a8b/Simulator%20Screen%20Recording%20-%20iPhone%2014%20-%202023-05-19%20at%2017.39.55.gif)
 
 
 
