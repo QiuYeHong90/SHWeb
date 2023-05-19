@@ -8,7 +8,7 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-![image](Simulator Screen Recording - iPhone 14 - 2023-05-19 at 17.39.55.gif)
+![image](./Simulator Screen Recording - iPhone 14 - 2023-05-19 at 17.39.55.gif)
 
 
 ## Requirements
